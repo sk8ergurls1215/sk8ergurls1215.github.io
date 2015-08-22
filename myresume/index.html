@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hilary Lai</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="Hilary.css">
+</head>
+
+<body>
+    <div class="second">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">Hilary Lai</a>
+                </div>
+                <div>
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#profile">Profile</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">About
+          <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Page 1-1</a></li>
+                                <li><a href="#">Page 1-2</a></li>
+                                <li><a href="#">Page 1-3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#ContactMe">Contact Me</a></li>
+                        <li><a href="#MoreInfo">More Info</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row bulk" id="#profile">
+                <h1>Profile</h1>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <table class="table">
+                        <thead>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Name</td>
+                                <td>Hilary Lai</td>
+                            </tr>
+                            <tr>
+                                <td>Age</td>
+                                <td>19</td>
+                            </tr>
+                            <tr>
+                                <td>Ocupation</td>
+                                <td>student</td>
+                            </tr>
+                            <tr>
+                                <td>Gender</td>
+                                <td>female</td>
+                            </tr>
+                            <tr>
+                                <td>Interests</td>
+                                <td>reading, swimming, skateboarding</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><img src="images/profile.jpg" width="288" height="384"></div>
+            </div>
+            <div class="row bulk" id="#ContactMe">
+                <h1>Contact Me</h1>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 icon">
+                    <a href="https://www.facebook.com/hilary.lai1"><img src="images/facebook.png" width="250" height="250"></a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 icon">
+                    <a href="https://twitter.com/hilary1215"><img src="images/twitter.png" width="250" height="250"></a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 icon">
+                    <a href="https://www.youtube.com/channel/UCgqtocxrDNM7xpI32kgvqXA"><img src="images/youtube.png" width="250" height="250"></a>
+                </div>
+            </div>
+            <div class="row">
+            </div>
+        </div>
+    </div>
+    </div>
+    ￼
+    <div class="jumbotron mainpage" id="#HilaryLai">
+        <h1>Welcome to My Website!</h1>
+        <h2><small>A Brief Introduction of Hilary Lai.</small></h2>
+        <p>Click the "Learn more" button for more information.</p>
+        <p><a class="btn btn-primary btn-large learnmore">Learn more &raquo;</a></p>
+    </div>
+    <div class="background">
+        <p></p>
+    </div>
+    </div>
+    <script src="scripts/jquery-1.6.2.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        $(".second").hide();
+        $(".learnmore").click(function() {
+            $(".jumbotron").slideUp(1000);
+            $(".background").slideUp(1000);
+            $(".second").show(2000);
+        });
+    });
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

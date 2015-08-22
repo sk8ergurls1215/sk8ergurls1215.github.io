@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div class="second">
+    <div class="second" id="top">
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -21,7 +21,7 @@
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="#profile">Profile</a></li>
                         <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">About
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#about">About
           <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">Page 1-1</a></li>
@@ -36,7 +36,7 @@
             </div>
         </nav>
         <div class="container">
-            <div class="row bulk" id="#profile">
+            <div class="row" id="profile">
                 <h1>Profile</h1>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <table class="table">
@@ -44,53 +44,101 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Name</td>
+                                <td class="data">Name</td>
                                 <td>Hilary Lai</td>
                             </tr>
                             <tr>
-                                <td>Age</td>
+                                <td class="data">Age</td>
                                 <td>19</td>
                             </tr>
                             <tr>
-                                <td>Ocupation</td>
+                                <td class="data">Ocupation</td>
                                 <td>student</td>
                             </tr>
                             <tr>
-                                <td>Gender</td>
+                                <td class="data">Gender</td>
                                 <td>female</td>
                             </tr>
                             <tr>
-                                <td>Interests</td>
+                                <td class="data">Interests</td>
                                 <td>reading, swimming, skateboarding</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><img src="images/profile.jpg" width="288" height="384"></div>
-            </div>
-            <div class="row bulk" id="#ContactMe">
-                <h1>Contact Me</h1>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 icon">
-                    <a href="https://www.facebook.com/hilary.lai1"><img src="images/facebook.png" width="250" height="250"></a>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 picofme img-circle">
+                    <p></p>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 icon">
-                    <a href="https://twitter.com/hilary1215"><img src="images/twitter.png" width="250" height="250"></a>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 icon">
-                    <a href="https://www.youtube.com/channel/UCgqtocxrDNM7xpI32kgvqXA"><img src="images/youtube.png" width="250" height="250"></a>
+                <div>
+                    <a class="backtotop" href="#top"></a>
                 </div>
             </div>
-            <div class="row">
+            <div id="about">
+                <h1>About</h1>
+                <div>
+                    <h2>Education</h2>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <td class="biggerdata">Year</td>
+                                <td class="biggerdata">School</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="active">
+                                <td class="data">2002-2008</td>
+                                <td>Dun-Hua Elementary School</td>
+                            </tr>
+                            <tr>
+                                <td class="data">2008-2011</td>
+                                <td>Dun-Hua Junior High School</td>
+                            </tr>
+                            <tr class="active">
+                                <td class="data">2011-2014</td>
+                                <td>Taipei First Girls' High School</td>
+                            </tr>
+                            <tr>
+                                <td class="data">2014-present</td>
+                                <td>National Taiwan University</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div>
+                    <h2>Skills</h2>
+                    <ul class="skills">
+                        <li>Language
+                            <ul>
+                                <li>English</li>
+                                <li>Spanish</li>
+                            </ul>
+                        </li>
+                        <li>simple calculus</li>
+                        <li>simple accounting</li>
+                        <li>simple C++/ HTML/ Javascript/ JQuery</li>
+                    </ul>
+                </div>
+                <div class="row" id="ContactMe">
+                    <h1>Contact Me</h1>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 icon">
+                        <a href="https://www.facebook.com/hilary.lai1"><img src="images/facebook.png" width="250" height="250"></a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 icon">
+                        <a href="https://twitter.com/hilary1215"><img src="images/twitter.png" width="250" height="250"></a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 icon">
+                        <a href="https://www.youtube.com/channel/UCgqtocxrDNM7xpI32kgvqXA"><img src="images/youtube.png" width="250" height="250"></a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    </div>
     ￼
-    <div class="jumbotron mainpage" id="#HilaryLai">
-        <h1>Welcome to My Website!</h1>
-        <h2><small>A Brief Introduction of Hilary Lai.</small></h2>
-        <p>Click the "Learn more" button for more information.</p>
-        <p><a class="btn btn-primary btn-large learnmore">Learn more &raquo;</a></p>
+    <div class="jumbotron mainpage" id="HilaryLai">
+        <h1>Hello! My name is Hilary.</h1>
+        <h1><small>Welcome to my website.</small></h1>
+        <p>Click the "Learn more" button for more information about me.</p>
+        <p><a class="btn btn-primary btn-large learnmore">Learn more</a></p>
     </div>
     <div class="background">
         <p></p>

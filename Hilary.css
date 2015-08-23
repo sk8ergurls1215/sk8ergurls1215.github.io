@@ -27,6 +27,7 @@ h2 {
 
 thead {
     font-weight: bold;
+    text-align: center;
 }
 
 .data {
@@ -64,4 +65,27 @@ thead {
     position: fixed;
     background-image: url(images/backtotop.png);
     margin-right: 10px;
+}
+
+.carousel {
+    margin: 20px;
+    background-color: black;
+    border-style: dotted;
+    border-width: 10px;
+    background: white;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.carousel .item img {
+    margin: 0 auto;
+    /* Align slide image horizontally center */
+}
+
+.cabbage {
+    margin-right: 0;
+}
+
+.cheetos {
+    margin-right: 0;
 }

@@ -81,10 +81,11 @@ thead {
     /* Align slide image horizontally center */
 }
 
-.cabbage {
-    margin-right: 0;
+.contact {
+    font-family: oblique;
+    text-align: center;
 }
 
-.cheetos {
-    margin-right: 0;
+.dot {
+    background-image: url(images/grey.png);
 }

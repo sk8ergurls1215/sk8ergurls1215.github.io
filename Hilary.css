@@ -25,11 +25,6 @@ h2 {
     text-align: center;
 }
 
-thead {
-    font-weight: bold;
-    text-align: center;
-}
-
 .data {
     font-weight: bold;
 }
@@ -41,6 +36,10 @@ thead {
 .skills {
     font-size: 16px;
     font-family: sans-serif;
+}
+
+thead {
+    font-weight: bolder;
 }
 
 .picofme {
